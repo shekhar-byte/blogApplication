@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Kanit:wght@300;400&family=Open+Sans&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Raleway:wght@300&display=swap");
+.header {
+    display: flex;
+}
+
+.headerTitles {
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.headerTitleSm {
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+}
+
+.headerTitleLg {
+    font-weight: lighter;
+    font-family: 'Italiana', sans-serif;
+    position: absolute;
+    top: 20%;
+    font-size: 80px;
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 40px;
+}
+
+.headerSubtitle {
+    font-family: 'Italiana', sans-serif;
+    margin-left: 40px;
+    position: absolute;
+    top: 30%;
+    font-size: 40px;
+    text-align: left;
+    color: whitesmoke;
+    margin-top: 40px;
+}
+
+.headerButton {
+    position: absolute;
+    left: 90%;
+    border-radius: 12px;
+    top: 60%;
+}
+
+.headerImg {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
